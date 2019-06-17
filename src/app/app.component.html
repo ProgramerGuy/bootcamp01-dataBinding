@@ -1,0 +1,11 @@
+<div style="text-align: center">
+<h4>Employee of the Week</h4>
+  <img [width]="width" [height]="height" [src]="employeeOfTheWeek.picture" />
+
+<h5 [textContent]="employeeOfTheWeek.name"></h5>
+<p>Position: {{ employeeOfTheWeek.position }}</p>
+<span>Status: <span style="color: green">{{ employeeOfTheWeek.status }}</span></span>
+<p>Ranking Position: <b>{{ employeeOfTheWeek.rankingPosition }}</b></p>
+<p>Ranking Points: <b>{{ totalRankingPoints + weekRankingPoints  }}</b></p>
+
+</div>
